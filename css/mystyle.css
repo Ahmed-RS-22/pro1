@@ -1,0 +1,363 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-Bold.ttf);
+     
+}
+@font-face {
+   font-family: l-oswald;
+   src: url(../fonts/Oswald-Light.ttf);
+}
+/* navbar */
+.navbar{
+   background-color: black;
+    width: 100%;
+
+    display: inline-block;
+    color: white;
+
+}
+.navbar .anchor{
+    text-decoration: none;
+    padding: 10px 15px;
+    width: auto;
+    color: white;
+    display: inline-block;
+   
+    
+}
+ .navbar .anchor:hover{
+    background-color: #ccc;
+    color: black;
+ }   
+ /* navbar */
+ .header{
+    background-color:#FEFFFE ;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-family: oswald;
+    color: black;
+  
+
+ }
+ .header h1{  font-size: 48px;
+    font-weight: 700;
+    margin-top: 80px;
+ }
+ .header p{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin:0px 0px;
+
+ }
+ .header p span{
+    background-color: black;
+    color: #FEFFFE;
+    padding: 2px 15px;
+    text-align: center;
+ }
+ /* navbar */
+ /* header */
+ header{
+    position: relative;
+    font-family: oswald;
+ }
+ header section{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    display: block;
+    color: #FEFFFE;
+ }
+ header h3{
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0px;
+    letter-spacing: 4px;
+ }
+ header h1{
+    font-size: 64px;
+    font-weight: 700;
+    margin: 10px 0px;
+    letter-spacing: 4px;
+ }
+ header section button{
+    font-size: 20px;
+    padding: 15px 20px;
+    border: none;
+   font-family: l-oswald;
+    cursor: pointer;
+    margin: 10px 0px;
+    background-color: rgba(160, 160, 160,0.66 );
+ }
+ header section button:hover{
+    background-color: rgba(160, 160, 160,0.9 );
+    cursor: pointer;
+ }
+ /*header*/
+ /* body */
+ body{
+   
+ }
+.page{
+   width: 100%;
+  height: 3160px;
+   background-color: rgb(240,241,240);
+   padding: 20px 30px;
+   
+}
+.leftside{
+   background-color: rgb(240,241,240);
+   width: 65%;
+   text-align: center;
+  height: 100%;
+   float: left;
+
+  
+}
+.leftside .div1{
+   background-color: #FEFFFE;
+   margin-bottom: 40px;
+    padding: 20px;
+   
+}
+.leftside .div2{
+   margin-top: 20px;
+   background-color: #FEFFFE;
+    padding: 20px;
+}
+.leftside .div3 {
+   margin-top: 20px;
+   background-color: #FEFFFE;
+    padding: 20px;
+
+}
+.leftside .sec1 h2{
+   font-size: 24px;
+   font-family:l-oswald;
+   font-weight: 900;
+
+}
+.leftside .sec1 p{
+   font-size: 18px;
+   font-family:l-oswald;
+   font-weight: 900;
+   padding: 10px;
+} 
+.leftside .sec1 p span{
+   font-size: 18px;
+   font-family:l-oswald;
+   font-weight:lighter;
+   color: rgba(0,0,0,0.65)
+}
+.page .sec1{
+   padding: 15px;
+   
+}
+.page .sec2{
+   
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.page .sec2 p {
+   font-size: 15px;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+   text-align: left;
+
+}
+.page .sec2 p span{
+   font-weight: 700;
+   
+}
+.page .sec3{
+   position: relative;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+   margin-bottom: 60px;
+}
+.page .sec3 .b1{
+ float: left;
+ padding:10px 15px;
+ margin-bottom: 40px;
+ border:2px solid rgb(205,205,204) ;
+ background-color: #FEFFFE;
+ cursor: pointer;
+
+}
+.page .sec3 .b1:hover{
+   background-color: rgb(205,205,204);
+}
+.page .sec3 .b2{
+   float: right ;
+   padding:10px 20px;
+   margin-bottom: 40px;
+   font-size: 15px;
+   font-weight: 700;  
+   color:#FEFFFE;
+   background-color: black;
+   cursor: pointer;
+   border: none;
+  
+}
+.page .sec3 .b2 span{
+   border: none;
+   background-color: #FEFFFE;
+   padding:0px 10px;
+   font-size: 15px;
+   color: black;
+   font-weight: 400;
+   margin-left: 10px;
+}
+.page .sec3 .b2:hover{
+   background-color:rgb(205,205,204);
+   color: black;
+  
+}
+
+hr{
+ 
+   border: 0;
+   border-top: 1px solid #eee;
+   margin-top: 40px;
+   overflow: hidden;
+   clear:both;
+}
+ .page .dd {
+   width: 100%;
+   height: 70px;
+   margin-top: 25px;
+   margin-bottom: 35px;
+ 
+
+   
+ }
+ .page .dd .sec4 {
+   width: 85px;
+   height: 100px;
+   float: left;
+   margin-right: 70px;
+ }
+ .page .dd .sec5{
+   float: left;
+   margin-top: 20px;
+   text-align: left;
+
+ }
+ .page .dd .sec5 .p1 {
+   margin-bottom: 20px;
+   font-family:l-oswald;
+   font-weight: 700;
+   font-size: 20px;
+   color: black;
+   
+
+ }
+ .page .dd .sec5 .p1 span{
+   font-size: 15px;
+   font-family:l-oswald;
+   color: rgba(0,0,0,0.65);
+   font-weight: 700;
+
+ }
+ .page .dd .sec5 .p2{
+   font-size: 16px;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+   font-weight: 400;
+ }
+
+
+footer{
+   background-color: rgb(97,96,96);
+   width: 100%;
+   height: 180px;
+   position: relative;
+}
+   
+
+footer  .anch {
+   position: absolute;
+   top: 30px;
+   left: 30px;
+   color: #FEFFFE;
+   font-size: 15px;
+   font-weight: 400;
+   border: hidden;
+   padding: 15px 25px;
+   text-decoration: none;
+   background-color: black;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+}
+
+footer a i{
+   padding-right: 20px;
+   font-weight: bold;
+}
+
+footer p{
+   position: absolute;
+   top: 110px;
+   left: 30px;
+   color: #FEFFFE;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+   
+}
+footer p .aa2{
+   text-decoration: underline;
+   color: #FEFFFE;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+}
+footer span :hover {
+   background-color:rgb(205,205,204);
+   color: black;
+
+}
+
+@media screen and (max-width:600px) {
+   .navbar{
+      width: 100%;
+   }
+
+   header section{
+      position: absolute;
+      top: 40%;
+      left: 3%;
+      display: block;
+      color: #FEFFFE;}
+      header h3{
+         font: size 15px;;
+         font-weight: 400;
+         margin: 5px 0px;
+         letter-spacing: 2px;
+      }
+      header h1{
+         font-size: 20px;
+         font-weight: 700;
+         margin: 5px 0px;
+         letter-spacing: 2px;
+      }
+      header section button{
+         font-size: 10px;
+         padding: 8px 10px;
+         border: none;
+        
+         cursor: pointer;
+         margin: 5px 0px;
+         background-color: rgba(160, 160, 160,0.66 );}
+         .leftside{
+            width: 100%;
+         }
+         .page .dd{
+            position: relative;
+      }
+      .page .dd .sec5{
+         position: absolute;
+         bottom: -30px;
+         left: 100px;
+         padding: 5px;
+      }
+ }
